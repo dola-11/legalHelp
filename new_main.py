@@ -21,7 +21,7 @@ import os
 
 # 1. Configure Gemini API
 # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))  # Ensure GEMINI_API_KEY is set in your environment
-genai.configure(api_key="AIzaSyDtXn3Y6Nqu0tcwFqxQAOpf-JO2Ba6wGKY")  # Ensure GEMINI_API_KEY is set in your environment
+genai.configure(api_key="API_KEY")  # Ensure GEMINI_API_KEY is set in your environment
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # 2. Risk‐Level Definitions (per‐clause)
